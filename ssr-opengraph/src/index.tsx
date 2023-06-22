@@ -10,7 +10,7 @@ app.get('/', (c) => {
   return c.text('hello hono.js');
 });
 
-const chains = ['bsx', 'snek', 'rmrk', 'ksm'];
+const chains = ['bsx', 'snek', 'rmrk', 'ksm', 'stmn'];
 
 app.get('/:chain/:type/:id/*', async (c) => {
   const useragent = c.req.headers.get('user-agent');
